@@ -4,7 +4,9 @@
 
 # Mengunduh skrip Python dari GitHub
 ```wget https://raw.githubusercontent.com/daffahelmi/backup-marzban/main/backup.py -O /root/backup-m.py```
+
 Pastikan Anda menyesuaikan nilai YOUR_TELEGRAM_BOT_TOKEN, YOUR_TELEGRAM_CHAT_ID
+
 ```nano backup-m.py```
 Untuk membackup```python3 backup-m.py```
 # Untuk eksekusi backup setiap 6 jam sekali
