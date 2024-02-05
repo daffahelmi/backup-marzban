@@ -35,7 +35,7 @@ async def main():
     telegram_bot_token = 'YOUR_TELEGRAM_BOT_TOKEN'
     telegram_chat_id = 'YOUR_TELEGRAM_CHAT_ID'
 
-    source_folders = ['/path/to/source/folder1', '/path/to/source/folder2']
+    source_folders = ['/var/lib/marzban', '/opt/marzban']
     backup_folder_name = 'backup'
 
     zip_file_path = await backup_and_zip(source_folders, backup_folder_name)
