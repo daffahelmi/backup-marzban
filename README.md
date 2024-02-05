@@ -8,5 +8,5 @@
 Untuk membackup```python3 backup-m.py```
 # Untuk eksekusi backup setiap 6 jam sekali
 ```crontab -e```
-
+Tambahkan ke line paling bawah
 ```0 */6 * * * /usr/bin/python3 /root/backup-m.py```
