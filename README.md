@@ -8,4 +8,5 @@ wget ```https://raw.githubusercontent.com/daffahelmi/backup-marzban/main/backup.
 Untuk membackup```python3 backup-m.py```
 # Untuk eksekusi backup setiap 6 jam sekali
 ```crontab -e```
-```0 */6 * * * /usr/bin/python3 ```/root/backup-m.py
+
+```0 */6 * * * /usr/bin/python3 /root/backup-m.py```
